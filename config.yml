@@ -1,0 +1,58 @@
+# galaxy-profile config for vitorbabo-cf, Coreflux look.
+# Header text from Vitor's Coreflux email signature; the rest from the public GitHub profile.
+
+username: vitorbabo-cf
+
+profile:
+  name: "Vitor Babo"
+  tagline: "Lead Developer"
+  company: "Coreflux"
+  location: "Porto"
+  bio: ""                                     # TODO: GitHub bio is empty (not drawn)
+  philosophy: "Mostly solving problems. Occasionally causing them."
+
+# No contact details on the profile (not drawn by the generator either).
+social: {}
+
+# Focus areas. Arms only appear for public repositories; the stack lines below are drawn regardless.
+galaxy_arms:
+  - name: "Broker & Edge"
+    items: ["Rust", "C#", "Python", "MQTT"]
+  - name: "Hub & Tooling"
+    items: ["TypeScript", "JavaScript", "React", "VS Code"]
+  - name: "Cloud & CI"
+    items: ["Go", "HCL", "Kubernetes", "Argo"]
+
+# Public Coreflux repositories with commits by vitorbabo-cf in the last year.
+projects:
+  - repo: "CorefluxCommunity/coreflux-cursor-plugin"
+  - repo: "CorefluxCommunity/coreflux-skills"
+  - repo: "CorefluxCommunity/weather-station-hackathon"
+  - repo: "CorefluxCommunity/Language-Of-Things-Training"
+
+theme:
+  dark: "coreflux"
+  light: "coreflux"
+
+# Coreflux design system text face (Plus Jakarta Sans), drawn as outlines.
+typeface: "plus-jakarta-sans"
+
+# Count the languages of private repositories (owned and organisation ones) in the language band.
+# Only summed bytes per language are read; private repository names are never fetched or drawn.
+include_private: all
+
+motion: true
+
+stats:
+  metrics:
+    - "commits"
+    - "prs"
+
+languages:
+  exclude:
+    - "HTML"
+    - "CSS"
+    - "Shell"
+    - "Makefile"
+    - "PowerShell"
+  max_display: 8
