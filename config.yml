@@ -59,4 +59,5 @@ languages:
 
 # Header: broker-centred network map (Coreflux hub, focus areas as clusters, featured repos linked).
 header: network
-links: curve
+links: elbow
+header_projects: false
